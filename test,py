@@ -1,0 +1,16 @@
+def multiply(x, y):
+    return x * y
+
+def add(a, b):
+    return a + b
+
+def compute_total(x, y, z):
+    return add(multiply(x, y), z)
+
+# prompt:
+# query 1: Given the following code, can you explain the dependencies between the functions multiply, add, and compute_total?
+# Response: https://chatgpt.com/share/e/670462c3-c5fc-800d-8c46-1d133b2bb159
+# query 2: Which function is responsible for combining the results of multiply and add?
+# Response: https://chatgpt.com/share/e/67046248-9d98-800d-a6f1-e042f665e371
+# query 3: dependencies?
+# Response: https://chatgpt.com/share/e/670463a8-3c94-800d-89fe-57f606e83068
